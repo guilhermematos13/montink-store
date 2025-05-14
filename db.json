@@ -1,0 +1,27 @@
+{
+  "products": {
+    "products": [
+      {
+        "id": 1,
+        "name": "Camiseta",
+        "category": "Vestuário",
+        "galleries": [
+          {
+            "images": ["url1", "url2", "url3"],
+            "color": "Preto",
+            "isMain": true
+          },
+          {
+            "images": ["url1", "url2", "url3"],
+            "color": "Amarelo",
+            "isMain": false
+          }
+        ],
+        "price": 123,
+        "size": ["M", "P", "G", "GG"],
+        "colors": ["Preto", "Amarelo"],
+        "stock": 10
+      }
+    ]
+  }
+}
