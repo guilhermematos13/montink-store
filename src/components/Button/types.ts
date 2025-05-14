@@ -10,5 +10,4 @@ export type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
 export enum VariantButtonEnum {
   PRIMARY = 'primary',
   SECONDARY = 'secondary',
-  GHOST = 'ghost',
 }

@@ -2,25 +2,46 @@
   "products": {
     "products": [
       {
-        "id": 1,
-        "name": "Camiseta",
-        "category": "Vestuário",
+        "id": "1",
+        "name": "Camiseta Masc Essentials 3 Stripes Single Jersey Tee adidas",
+        "category": "Roupas",
+        "brand": "Adidas",
         "galleries": [
           {
-            "images": ["url1", "url2", "url3"],
-            "color": "Preto",
+            "images": [
+              "https://http2.mlstatic.com/D_NQ_NP_2X_660753-MLB82421329202_022025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp",
+              "https://http2.mlstatic.com/D_NQ_NP_2X_695036-MLB82421538282_022025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp",
+              "https://http2.mlstatic.com/D_NQ_NP_2X_930251-MLB82706698967_022025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp",
+              "https://http2.mlstatic.com/D_NQ_NP_2X_743292-MLB82421458914_022025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp"
+            ],
+            "color": "Branca",
             "isMain": true
           },
           {
-            "images": ["url1", "url2", "url3"],
-            "color": "Amarelo",
+            "images": [
+              "https://http2.mlstatic.com/D_NQ_NP_2X_875650-MLB83377630478_042025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp",
+              "https://http2.mlstatic.com/D_NQ_NP_2X_710823-MLB83377739264_042025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp",
+              "https://http2.mlstatic.com/D_NQ_NP_2X_626932-MLB83377729524_042025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp",
+              "https://http2.mlstatic.com/D_NQ_NP_2X_753729-MLB83377729522_042025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp"
+            ],
+            "color": "Cinza",
             "isMain": false
           }
         ],
-        "price": 123,
+        "price": 129.99,
         "size": ["M", "P", "G", "GG"],
-        "colors": ["Preto", "Amarelo"],
-        "stock": 10
+        "colors": ["Branca", "Cinza"],
+        "flavors": [],
+        "stock": [
+          {
+            "color": "Branca",
+            "stock": 10
+          },
+          {
+            "color": "Cinza",
+            "stock": 9
+          }
+        ]
       }
     ]
   }

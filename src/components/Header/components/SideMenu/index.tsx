@@ -1,4 +1,4 @@
-import { X } from 'lucide-react';
+import { ShoppingCart, User, X } from 'lucide-react';
 import { sideMenuStyles } from './styles';
 import { SideMenuProps } from './types';
 import Image from 'next/image';
@@ -9,9 +9,17 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import { SearchParamsKeysEnum } from './constants';
 import { formatText } from '@/utils/format-text';
 import { VariantButtonEnum } from '@/components/Button/types';
+import { ButtonLink } from '@/components/ButtonLink';
+import { AppRoutesEnum } from '@/constants';
 
 export function SideMenu({ isOpen, setIsOpen }: SideMenuProps) {
-  const { container } = sideMenuStyles();
+  const {
+    container,
+    contentContainer,
+    filtersButtonsContainer,
+    clearFilterButtonContainer,
+    loginOptionsContainer,
+  } = sideMenuStyles();
   const searchParams = useSearchParams();
   const router = useRouter();
 
@@ -41,16 +49,28 @@ export function SideMenu({ isOpen, setIsOpen }: SideMenuProps) {
 
   return (
     <div className={container({ isOpen })}>
-      <div className="flex w-full flex-col gap-8 p-4">
+      <div className={contentContainer()}>
         <div className="flex justify-between">
           <Image src={Logo} alt="Logo da Montink Store" width={120} priority />
           <button onClick={handleClickCloseSideMenu} className="cursor-pointer">
             <X />
           </button>
         </div>
+        <div className={loginOptionsContainer()}>
+          <ButtonLink href={AppRoutesEnum.HOME} icon={<User />}>
+            Login
+          </ButtonLink>
+          <ButtonLink
+            href={AppRoutesEnum.HOME}
+            variant={VariantButtonEnum.SECONDARY}
+            icon={<ShoppingCart />}
+          >
+            Carrinho
+          </ButtonLink>
+        </div>
         <div>
           <h2>Filtrar por:</h2>
-          <div className="mt-2 flex flex-col gap-3">
+          <div className={filtersButtonsContainer()}>
             {categoryValues.map((category) => {
               const formatted = formatText(category);
               const isSelected = formatted === selectedFilter;
@@ -69,7 +89,7 @@ export function SideMenu({ isOpen, setIsOpen }: SideMenuProps) {
             })}
           </div>
           {hasFilterSelected ? (
-            <div className="mt-4 flex w-full justify-end">
+            <div className={clearFilterButtonContainer()}>
               <Button onClick={handleClearFilter}>Limpar Filtros</Button>
             </div>
           ) : null}

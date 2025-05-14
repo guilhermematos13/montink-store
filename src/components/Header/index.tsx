@@ -9,8 +9,10 @@ import { VariantButtonEnum } from '../Button/types';
 import { ButtonLink } from '../ButtonLink';
 import { SideMenu } from './components/SideMenu';
 import { useState } from 'react';
+import { headerStyles } from './styles';
 
 export function Header() {
+  const { buttonMenuStyles, headerContainer, leftContainer, rightContainer } = headerStyles();
   const [openSideMenuState, setOpenSideMenuState] = useState(false);
 
   const handleClickMenuButton = () => {
@@ -19,16 +21,16 @@ export function Header() {
 
   return (
     <>
-      <header className="flex items-center justify-between bg-indigo-700 px-10 py-6">
-        <div className="flex items-center gap-6">
-          <button className="cursor-pointer text-indigo-100" onClick={handleClickMenuButton}>
+      <header className={headerContainer()}>
+        <div className={leftContainer()}>
+          <button className={buttonMenuStyles()} onClick={handleClickMenuButton}>
             <Menu />
           </button>
           <Link href={AppRoutesEnum.HOME}>
             <Image src={Logo} alt="Logo da Montink Store" width={120} priority />
           </Link>
         </div>
-        <div className="hidden gap-2 sm:flex">
+        <div className={rightContainer()}>
           <ButtonLink href={AppRoutesEnum.HOME} icon={<User />}>
             Login
           </ButtonLink>

@@ -9,14 +9,22 @@ export interface product {
   name: string;
   category: CategoryEnumNames;
   galleries: Array<galleries>;
+  brand: string;
   price: number;
-  size: Array<String>;
-  colors: Array<String>;
+  size: Array<string>;
+  colors?: Array<string>;
+  flavors?: Array<string>;
   stock: number;
 }
 
 export interface galleries {
-  images: Array<String>;
+  images: Array<string>;
   color: string;
   isMain: boolean;
+}
+
+export interface stock {
+  color?: string;
+  flavor?: string;
+  stock: number;
 }

@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
-import { Montserrat } from 'next/font/google';
+import { DM_Sans } from 'next/font/google';
 import './globals.css';
 import { Header } from '@/components/Header';
 
-const montserratSans = Montserrat({
-  variable: '--font-montserrat-sans',
+const fontSans = DM_Sans({
+  variable: '--font-sans',
   subsets: ['latin'],
   display: 'swap',
 });
@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${montserratSans.variable} antialiased`}>
+      <body className={`${fontSans.variable} antialiased`}>
         <Header />
         {children}
       </body>
