@@ -1,7 +1,7 @@
 'use client';
 
 import { Menu, ShoppingCart, User } from 'lucide-react';
-import { AppRoutesEnum } from '@/constants';
+import { AppRoutesEnum, CookiesKeyEnum } from '@/constants';
 import Link from 'next/link';
 import Image from 'next/image';
 import Logo from '../../assets/black-logo.png';
@@ -10,14 +10,27 @@ import { SideMenu } from './components/SideMenu';
 import { useState } from 'react';
 import { headerStyles } from './styles';
 import { VariantButtonLinkEnum } from '../ButtonLink/constants';
+import { usePathname } from 'next/navigation';
+import { Button } from '../Button';
+import { useAuth } from '@/context/AuthContext';
 
 export function Header() {
+  const pathname = usePathname();
   const { buttonMenuStyles, headerContainer, leftContainer, rightContainer } = headerStyles();
   const [openSideMenuState, setOpenSideMenuState] = useState(false);
+  const { isLoggedIn, logout } = useAuth();
 
   const handleClickMenuButton = () => {
     setOpenSideMenuState(true);
   };
+
+  const handleLogout = () => {
+    logout();
+  };
+
+  const isLoginPath = pathname.startsWith(AppRoutesEnum.LOGIN);
+
+  if (isLoginPath) return null;
 
   return (
     <>
@@ -31,9 +44,15 @@ export function Header() {
           </Link>
         </div>
         <div className={rightContainer()}>
-          <ButtonLink href={AppRoutesEnum.HOME} icon={<User />}>
-            Login
-          </ButtonLink>
+          {isLoggedIn ? (
+            <div className="flex flex-col items-end">
+              <Button onClick={handleLogout}>Sair</Button>
+            </div>
+          ) : (
+            <ButtonLink href={AppRoutesEnum.LOGIN} icon={<User />}>
+              Login
+            </ButtonLink>
+          )}
           <ButtonLink
             href={AppRoutesEnum.HOME}
             variant={VariantButtonLinkEnum.SECONDARY}
