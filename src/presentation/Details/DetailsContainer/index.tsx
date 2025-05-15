@@ -7,7 +7,5 @@ export default async function DetailsContainer({ id }: DetailsContainerProps) {
 
   const { productData } = await getProductData(id);
 
-  console.log(productData);
-
-  return <DetailsWrapper />;
+  return <DetailsWrapper product={productData} />;
 }

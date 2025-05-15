@@ -8,9 +8,10 @@ import { Button } from '@/components/Button';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { SearchParamsKeysEnum } from './constants';
 import { formatText } from '@/utils/format-text';
-import { VariantButtonEnum } from '@/components/Button/types';
 import { ButtonLink } from '@/components/ButtonLink';
 import { AppRoutesEnum } from '@/constants';
+import { VariantButtonEnum } from '@/components/Button/constants';
+import { VariantButtonLinkEnum } from '@/components/ButtonLink/constants';
 
 export function SideMenu({ isOpen, setIsOpen }: SideMenuProps) {
   const {
@@ -62,7 +63,7 @@ export function SideMenu({ isOpen, setIsOpen }: SideMenuProps) {
           </ButtonLink>
           <ButtonLink
             href={AppRoutesEnum.HOME}
-            variant={VariantButtonEnum.SECONDARY}
+            variant={VariantButtonLinkEnum.SECONDARY}
             icon={<ShoppingCart />}
           >
             Carrinho

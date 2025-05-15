@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import { buttonStyles } from './styles';
-import { ButtonLinkProps, VariantButtonEnum } from './types';
+import { ButtonLinkProps } from './types';
+import { VariantButtonLinkEnum } from './constants';
 
 export function ButtonLink({
-  variant = VariantButtonEnum.PRIMARY,
+  variant = VariantButtonLinkEnum.PRIMARY,
   icon,
   href,
   className,

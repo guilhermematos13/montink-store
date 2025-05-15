@@ -1,5 +1,6 @@
+import { VariantButtonEnum } from './constants';
 import { buttonStyles } from './styles';
-import { ButtonProps, VariantButtonEnum } from './types';
+import { ButtonProps } from './types';
 
 export function Button({
   variant = VariantButtonEnum.PRIMARY,

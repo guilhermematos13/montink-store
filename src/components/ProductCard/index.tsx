@@ -4,20 +4,14 @@ import { useState } from 'react';
 import { formatCurrency } from '@/utils/format-currency';
 
 export function ProductCard({ galleries, label, price, brand, onClick }: ProductCardProps) {
-  const mainGallery = galleries.find((gallery) => gallery.isMain);
-
-  if (!mainGallery) {
-    return null;
-  }
-
   const [selectedIndex, setSelectedIndex] = useState(0);
 
-  const { images } = mainGallery;
+  const { images } = galleries;
 
   return (
     <button
       onClick={onClick}
-      className="flex w-[20rem] cursor-pointer flex-col gap-4 rounded-md border border-black bg-white p-4 transition-transform duration-300 ease-in-out hover:scale-105"
+      className="flex max-w-[18rem] cursor-pointer flex-col gap-4 rounded-md border border-black bg-white p-4 transition-transform duration-300 ease-in-out hover:scale-105"
     >
       <div className="flex flex-col items-center gap-1">
         <div className="relative h-[12rem] w-[12rem] overflow-hidden rounded-lg">

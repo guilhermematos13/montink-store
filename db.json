@@ -2,42 +2,42 @@
   "products": [
     {
       "id": 1,
-      "name": "Camiseta Masc Essentials 3 Stripes Single Jersey Tee adidasCamiseta Masc Essentials 3 Stripes Single Jersey Tee adidas",
+      "name": "Camiseta adidas Own The Run - Original",
       "category": "roupas",
       "brand": "Adidas",
       "galleries": [
         {
           "images": [
-            "https://http2.mlstatic.com/D_NQ_NP_2X_660753-MLB82421329202_022025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_2X_695036-MLB82421538282_022025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_2X_930251-MLB82706698967_022025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_2X_743292-MLB82421458914_022025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp"
+            "https://http2.mlstatic.com/D_NQ_NP_2X_780912-MLB78492670533_082024-F-camiseta-adidas-own-the-run-original.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_780197-MLB78492759035_082024-F-camiseta-adidas-own-the-run-original.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_646522-MLB78492847131_082024-F-camiseta-adidas-own-the-run-original.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_951259-MLB78492670573_082024-F-camiseta-adidas-own-the-run-original.webp"
           ],
-          "color": "Branca",
+          "variant": "preto",
           "isMain": true
         },
         {
           "images": [
-            "https://http2.mlstatic.com/D_NQ_NP_2X_875650-MLB83377630478_042025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_2X_710823-MLB83377739264_042025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_2X_626932-MLB83377729524_042025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_2X_753729-MLB83377729522_042025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp"
+            "https://http2.mlstatic.com/D_NQ_NP_2X_610957-MLB80731901429_112024-F-camiseta-adidas-own-the-run-original.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_793251-MLB80471554730_112024-F-camiseta-adidas-own-the-run-original.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_755848-MLB80471554728_112024-F-camiseta-adidas-own-the-run-original.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_738283-MLB80471406744_112024-F-camiseta-adidas-own-the-run-original.webp"
           ],
-          "color": "Cinza",
+          "variant": "branco",
           "isMain": false
         }
       ],
       "price": 129.99,
       "size": ["M", "P", "G", "GG"],
-      "colors": ["Branca", "Cinza"],
+      "colors": ["Preto", "Branco"],
       "flavors": [],
       "stock": [
         {
-          "color": "Branca",
+          "variant": "branco",
           "stock": 10
         },
         {
-          "color": "Cinza",
+          "variant": "preto",
           "stock": 9
         }
       ]
@@ -55,7 +55,7 @@
             "https://http2.mlstatic.com/D_NQ_NP_2X_771745-MLB81785676208_012025-F-camiseta-nike-dri-fit-masculina.webp",
             "https://http2.mlstatic.com/D_NQ_NP_2X_837593-MLB81785676214_012025-F-camiseta-nike-dri-fit-masculina.webp"
           ],
-          "color": "Preto",
+          "variant": "preto",
           "isMain": true
         },
         {
@@ -65,7 +65,7 @@
             "https://http2.mlstatic.com/D_NQ_NP_2X_785269-MLB81785676216_012025-F-camiseta-nike-dri-fit-masculina.webp",
             "https://http2.mlstatic.com/D_NQ_NP_2X_727428-MLB81785676224_012025-F-camiseta-nike-dri-fit-masculina.webp"
           ],
-          "color": "Branco",
+          "variant": "branco",
           "isMain": false
         }
       ],
@@ -75,29 +75,29 @@
       "flavors": [],
       "stock": [
         {
-          "color": "Preto",
+          "variant": "preto",
           "stock": 7
         },
         {
-          "color": "Branco",
+          "variant": "branco",
           "stock": 11
         }
       ]
     },
     {
       "id": 3,
-      "name": "Tênis Nike Downshifter 13 Feminino",
-      "category": "sapatos",
+      "name": "Chuteira adidas F50 Club Society",
+      "category": "esportes",
       "brand": "Adidas",
       "galleries": [
         {
           "images": [
-            "https://http2.mlstatic.com/D_NQ_NP_2X_721852-MLB84420612709_052025-F-tnis-nike-downshifter-13-feminino.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_2X_653214-MLB84420612715_052025-F-tnis-nike-downshifter-13-feminino.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_2X_802051-MLB84420612703_052025-F-tnis-nike-downshifter-13-feminino.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_2X_780293-MLB84420612717_052025-F-tnis-nike-downshifter-13-feminino.webp"
+            "https://http2.mlstatic.com/D_NQ_NP_2X_607654-MLB83383731373_032025-F-chuteira-adidas-f50-club-society-rosa.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_601373-MLB83383691749_032025-F-chuteira-adidas-f50-club-society-rosa.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_803008-MLB83383731375_032025-F-chuteira-adidas-f50-club-society-rosa.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_698686-MLB83383602905_032025-F-chuteira-adidas-f50-club-society-rosa.webp"
           ],
-          "color": "Rosa",
+          "variant": "rosa",
           "isMain": true
         }
       ],
@@ -107,7 +107,7 @@
       "flavors": [],
       "stock": [
         {
-          "color": "Rosa",
+          "variant": "rosa",
           "stock": 3
         }
       ]
@@ -125,7 +125,7 @@
             "https://http2.mlstatic.com/D_NQ_NP_2X_728808-MLU69744690094_062023-F.webp",
             "https://http2.mlstatic.com/D_NQ_NP_2X_666466-MLU69760508131_062023-F.webp"
           ],
-          "flavor": "Leite",
+          "variant": "leite",
           "isMain": true
         },
         {
@@ -133,7 +133,7 @@
             "https://http2.mlstatic.com/D_NQ_NP_2X_771343-MLA80952129357_112024-F.webp",
             "https://http2.mlstatic.com/D_NQ_NP_2X_783953-MLA84493842013_052025-F.webp"
           ],
-          "color": "Pistache",
+          "variant": "pistache",
           "isMain": false
         }
       ],
@@ -143,11 +143,11 @@
       "flavors": ["Leite", "Pistache"],
       "stock": [
         {
-          "color": "Leite",
+          "variant": "leite",
           "stock": 4
         },
         {
-          "color": "Pistache",
+          "variant": "pistache",
           "stock": 2
         }
       ]
@@ -164,7 +164,7 @@
             "https://http2.mlstatic.com/D_NQ_NP_2X_758193-MLU76920014351_062024-F.webp",
             "https://http2.mlstatic.com/D_NQ_NP_2X_641696-MLU76149147794_052024-F.webp"
           ],
-          "flavor": "Sem Sabor",
+          "variant": "sem sabor",
           "isMain": true
         }
       ],
@@ -174,7 +174,7 @@
       "flavors": ["Sem Sabor"],
       "stock": [
         {
-          "color": "Sem Sabor",
+          "variant": "sem sabor",
           "stock": 3
         }
       ]
@@ -192,7 +192,7 @@
             "https://http2.mlstatic.com/D_NQ_NP_2X_805573-MLB84604601445_052025-F-tnis-adidas-ultrabouce-5-preto.webp",
             "https://http2.mlstatic.com/D_NQ_NP_2X_754915-MLB84308155570_052025-F-tnis-adidas-ultrabouce-5-preto.webp"
           ],
-          "color": "Preto",
+          "variant": "preto",
           "isMain": true
         }
       ],
@@ -202,7 +202,7 @@
       "flavors": [],
       "stock": [
         {
-          "color": "Preto",
+          "variant": "preto",
           "stock": 5
         }
       ]
@@ -220,45 +220,45 @@
             "https://http2.mlstatic.com/D_NQ_NP_2X_939640-MLB68964160258_042023-F-camiseta-nike-sportswear-just-do-it-masculina.webp",
             "https://http2.mlstatic.com/D_NQ_NP_2X_658232-MLB68964160264_042023-F-camiseta-nike-sportswear-just-do-it-masculina.webp"
           ],
-          "color": "Branca",
+          "variant": "branco",
           "isMain": true
         }
       ],
       "price": 129.99,
       "size": ["M", "P", "G", "GG"],
-      "colors": ["Branca"],
+      "colors": ["Branco"],
       "flavors": [],
       "stock": [
         {
-          "color": "Branca",
+          "variant": "branco",
           "stock": 10
         }
       ]
     },
     {
       "id": 8,
-      "name": "adidas Deportivo III FG Grama natural firme Masculino",
+      "name": "Chuteira adidas Predator League Society",
       "category": "esportes",
       "brand": "Adidas",
       "galleries": [
         {
           "images": [
-            "https://http2.mlstatic.com/D_NQ_NP_2X_904867-MLA80991597469_112024-F.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_2X_679958-MLA80991646061_112024-F.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_2X_722951-MLA83186411618_042025-F.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_2X_727914-MLA83186411622_042025-F.webp"
+            "https://http2.mlstatic.com/D_NQ_NP_2X_658956-MLB83699302229_042025-F-chuteira-adidas-predator-league-society-verde.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_735668-MLB83699688573_042025-F-chuteira-adidas-predator-league-society-verde.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_600617-MLB83699638969_042025-F-chuteira-adidas-predator-league-society-verde.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_614498-MLB83699887247_042025-F-chuteira-adidas-predator-league-society-verde.webp"
           ],
-          "color": "Preto",
+          "variant": "verde",
           "isMain": true
         }
       ],
       "price": 199.99,
       "size": ["38", "39", "40", "42"],
-      "colors": ["Preto"],
+      "colors": ["Verde"],
       "flavors": [],
       "stock": [
         {
-          "color": "Preto",
+          "variant": "verde",
           "stock": 4
         }
       ]
@@ -275,7 +275,7 @@
             "https://http2.mlstatic.com/D_NQ_NP_2X_801147-MLU75554522805_042024-F.webp",
             "https://http2.mlstatic.com/D_NQ_NP_2X_936291-MLU75811326504_042024-F.webp"
           ],
-          "color": "Branca",
+          "variant": "branco",
           "isMain": true
         }
       ],
@@ -285,7 +285,7 @@
       "flavors": [],
       "stock": [
         {
-          "color": "Branca",
+          "variant": "branco",
           "stock": 8
         }
       ]

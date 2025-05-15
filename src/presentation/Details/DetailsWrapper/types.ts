@@ -1,5 +1,5 @@
-import { product } from '@/infra/hooks/products/dtos/IGetProductListResponseDTO';
+import { IGetProductDataResponseDTO } from '@/infra/hooks/products/dtos/IGetProductDataResponseDTO';
 
-export type HomeWrapperProps = {
-  products: Array<product>;
+export type DetailsWrapperProps = {
+  product: IGetProductDataResponseDTO;
 };

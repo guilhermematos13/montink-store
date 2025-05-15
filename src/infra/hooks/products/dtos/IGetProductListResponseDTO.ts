@@ -10,19 +10,18 @@ export interface product {
   brand: string;
   price: number;
   size: Array<string>;
-  colors?: Array<string>;
-  flavors?: Array<string>;
-  stock: number;
+  colors: Array<string>;
+  flavors: Array<string>;
+  stock: Array<stock>;
 }
 
 export interface galleries {
   images: Array<string>;
-  color: string;
+  variant: string;
   isMain: boolean;
 }
 
 export interface stock {
-  color?: string;
-  flavor?: string;
+  variant: string;
   stock: number;
 }

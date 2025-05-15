@@ -5,11 +5,11 @@ import { AppRoutesEnum } from '@/constants';
 import Link from 'next/link';
 import Image from 'next/image';
 import Logo from '../../assets/black-logo.png';
-import { VariantButtonEnum } from '../Button/types';
 import { ButtonLink } from '../ButtonLink';
 import { SideMenu } from './components/SideMenu';
 import { useState } from 'react';
 import { headerStyles } from './styles';
+import { VariantButtonLinkEnum } from '../ButtonLink/constants';
 
 export function Header() {
   const { buttonMenuStyles, headerContainer, leftContainer, rightContainer } = headerStyles();
@@ -36,7 +36,7 @@ export function Header() {
           </ButtonLink>
           <ButtonLink
             href={AppRoutesEnum.HOME}
-            variant={VariantButtonEnum.SECONDARY}
+            variant={VariantButtonLinkEnum.SECONDARY}
             icon={<ShoppingCart />}
           >
             Carrinho

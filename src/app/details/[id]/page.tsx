@@ -6,6 +6,8 @@ type DetailsProps = {
   };
 };
 
-export default function Details({ params }: DetailsProps) {
-  return <DetailsPage id={params.id} />;
+export default async function Details({ params }: DetailsProps) {
+  const { id } = await params;
+
+  return <DetailsPage id={id} />;
 }

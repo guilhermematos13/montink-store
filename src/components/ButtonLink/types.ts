@@ -1,15 +1,10 @@
 import { LinkProps } from 'next/link';
-import { ButtonHTMLAttributes, ReactNode } from 'react';
+import { ReactNode } from 'react';
+import { VariantButtonLinkEnum } from './constants';
 
 export type ButtonLinkProps = LinkProps & {
-  variant?: VariantButtonEnum;
+  variant?: VariantButtonLinkEnum;
   icon?: ReactNode;
   className?: string;
   children: ReactNode;
 };
-
-export enum VariantButtonEnum {
-  PRIMARY = 'primary',
-  SECONDARY = 'secondary',
-  GHOST = 'ghost',
-}

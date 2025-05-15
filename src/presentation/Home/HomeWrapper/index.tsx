@@ -13,8 +13,13 @@ export function HomeWrapper({ products }: HomeWrapperProps) {
   const searchParams = useSearchParams();
   const activeFilter = searchParams.get(SearchParamsKeysEnum.FILTER);
 
-  const handleClickProduct = (id: string) => {
-    router.push(AppRoutesEnum.DETAILS.replace(':id', id));
+  const handleClickProduct = (id: string, mainVariant: string) => {
+    const params = new URLSearchParams(Array.from(searchParams.entries()));
+    params.set(SearchParamsKeysEnum.VARIANT, mainVariant);
+
+    const url = `${AppRoutesEnum.DETAILS.replace(':id', id)}?${params.toString()}`;
+
+    router.push(url);
   };
 
   const handleClearFilter = () => {
@@ -54,14 +59,19 @@ export function HomeWrapper({ products }: HomeWrapperProps) {
       ) : (
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {productsList.map((product) => {
+            const mainGallery = product.galleries.find((gallery) => gallery.isMain);
+            const mainVariant = product.galleries.find((gallery) => gallery.isMain)?.variant ?? '';
+
+            if (!mainGallery) return null;
+
             return (
               <ProductCard
                 key={product.id}
-                galleries={product.galleries}
+                galleries={mainGallery}
                 label={product.name}
                 price={product.price}
                 brand={product.brand}
-                onClick={() => handleClickProduct(product.id)}
+                onClick={() => handleClickProduct(product.id, mainVariant)}
               />
             );
           })}

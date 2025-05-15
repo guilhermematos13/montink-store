@@ -1,7 +1,7 @@
 import { galleries } from '@/infra/hooks/products/dtos/IGetProductListResponseDTO';
 
 export type ProductCardProps = {
-  galleries: Array<galleries>;
+  galleries: galleries;
   label: string;
   price: number;
   brand: string;

@@ -1,4 +1,5 @@
 import { ButtonHTMLAttributes, ReactNode } from 'react';
+import { VariantButtonEnum } from './constants';
 
 export type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
   variant?: VariantButtonEnum;
@@ -6,8 +7,3 @@ export type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
   className?: string;
   children: ReactNode;
 };
-
-export enum VariantButtonEnum {
-  PRIMARY = 'primary',
-  SECONDARY = 'secondary',
-}
