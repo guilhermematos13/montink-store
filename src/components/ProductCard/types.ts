@@ -5,4 +5,5 @@ export type ProductCardProps = {
   label: string;
   price: number;
   brand: string;
+  onClick: () => void;
 };

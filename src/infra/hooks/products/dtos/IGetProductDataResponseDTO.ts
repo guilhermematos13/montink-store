@@ -1,5 +1,3 @@
 import { product } from './IGetProductListResponseDTO';
 
-export interface IGetProductDataResponseDTO {
-  product: product;
-}
+export interface IGetProductDataResponseDTO extends product {}

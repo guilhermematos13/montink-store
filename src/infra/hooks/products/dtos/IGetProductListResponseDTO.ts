@@ -1,8 +1,6 @@
 import { CategoryEnumNames } from '../constants';
 
-export interface IGetProductListResponseDTO {
-  products: Array<product>;
-}
+export interface IGetProductListResponseDTO extends Array<product> {}
 
 export interface product {
   id: string;

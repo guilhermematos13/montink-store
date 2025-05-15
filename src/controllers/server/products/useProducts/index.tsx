@@ -8,7 +8,7 @@ export default function useProducts() {
 
     return {
       statusCode: data.statusCode,
-      products: data.body.products,
+      products: data.body,
     };
   };
 
@@ -17,7 +17,7 @@ export default function useProducts() {
 
     return {
       statusCode: data.statusCode,
-      products: data.body.product,
+      productData: data.body,
     };
   };
 

@@ -1,48 +1,294 @@
 {
-  "products": {
-    "products": [
-      {
-        "id": "1",
-        "name": "Camiseta Masc Essentials 3 Stripes Single Jersey Tee adidas",
-        "category": "Roupas",
-        "brand": "Adidas",
-        "galleries": [
-          {
-            "images": [
-              "https://http2.mlstatic.com/D_NQ_NP_2X_660753-MLB82421329202_022025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp",
-              "https://http2.mlstatic.com/D_NQ_NP_2X_695036-MLB82421538282_022025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp",
-              "https://http2.mlstatic.com/D_NQ_NP_2X_930251-MLB82706698967_022025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp",
-              "https://http2.mlstatic.com/D_NQ_NP_2X_743292-MLB82421458914_022025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp"
-            ],
-            "color": "Branca",
-            "isMain": true
-          },
-          {
-            "images": [
-              "https://http2.mlstatic.com/D_NQ_NP_2X_875650-MLB83377630478_042025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp",
-              "https://http2.mlstatic.com/D_NQ_NP_2X_710823-MLB83377739264_042025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp",
-              "https://http2.mlstatic.com/D_NQ_NP_2X_626932-MLB83377729524_042025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp",
-              "https://http2.mlstatic.com/D_NQ_NP_2X_753729-MLB83377729522_042025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp"
-            ],
-            "color": "Cinza",
-            "isMain": false
-          }
-        ],
-        "price": 129.99,
-        "size": ["M", "P", "G", "GG"],
-        "colors": ["Branca", "Cinza"],
-        "flavors": [],
-        "stock": [
-          {
-            "color": "Branca",
-            "stock": 10
-          },
-          {
-            "color": "Cinza",
-            "stock": 9
-          }
-        ]
-      }
-    ]
-  }
+  "products": [
+    {
+      "id": 1,
+      "name": "Camiseta Masc Essentials 3 Stripes Single Jersey Tee adidasCamiseta Masc Essentials 3 Stripes Single Jersey Tee adidas",
+      "category": "roupas",
+      "brand": "Adidas",
+      "galleries": [
+        {
+          "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_660753-MLB82421329202_022025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_695036-MLB82421538282_022025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_930251-MLB82706698967_022025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_743292-MLB82421458914_022025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp"
+          ],
+          "color": "Branca",
+          "isMain": true
+        },
+        {
+          "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_875650-MLB83377630478_042025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_710823-MLB83377739264_042025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_626932-MLB83377729524_042025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_753729-MLB83377729522_042025-F-camiseta-masc-essentials-3-stripes-single-jersey-tee-adidas.webp"
+          ],
+          "color": "Cinza",
+          "isMain": false
+        }
+      ],
+      "price": 129.99,
+      "size": ["M", "P", "G", "GG"],
+      "colors": ["Branca", "Cinza"],
+      "flavors": [],
+      "stock": [
+        {
+          "color": "Branca",
+          "stock": 10
+        },
+        {
+          "color": "Cinza",
+          "stock": 9
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Camiseta Nike Dri-fit Masculina",
+      "category": "roupas",
+      "brand": "Nike",
+      "galleries": [
+        {
+          "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_654468-MLB81785676212_012025-F-camiseta-nike-dri-fit-masculina.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_705949-MLB81785676210_012025-F-camiseta-nike-dri-fit-masculina.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_771745-MLB81785676208_012025-F-camiseta-nike-dri-fit-masculina.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_837593-MLB81785676214_012025-F-camiseta-nike-dri-fit-masculina.webp"
+          ],
+          "color": "Preto",
+          "isMain": true
+        },
+        {
+          "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_728303-MLB81785676228_012025-F-camiseta-nike-dri-fit-masculina.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_818912-MLB81785676220_012025-F-camiseta-nike-dri-fit-masculina.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_785269-MLB81785676216_012025-F-camiseta-nike-dri-fit-masculina.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_727428-MLB81785676224_012025-F-camiseta-nike-dri-fit-masculina.webp"
+          ],
+          "color": "Branco",
+          "isMain": false
+        }
+      ],
+      "price": 89.9,
+      "size": ["M", "P", "G", "GG"],
+      "colors": ["Preto", "Branco"],
+      "flavors": [],
+      "stock": [
+        {
+          "color": "Preto",
+          "stock": 7
+        },
+        {
+          "color": "Branco",
+          "stock": 11
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Tênis Nike Downshifter 13 Feminino",
+      "category": "sapatos",
+      "brand": "Adidas",
+      "galleries": [
+        {
+          "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_721852-MLB84420612709_052025-F-tnis-nike-downshifter-13-feminino.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_653214-MLB84420612715_052025-F-tnis-nike-downshifter-13-feminino.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_802051-MLB84420612703_052025-F-tnis-nike-downshifter-13-feminino.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_780293-MLB84420612717_052025-F-tnis-nike-downshifter-13-feminino.webp"
+          ],
+          "color": "Rosa",
+          "isMain": true
+        }
+      ],
+      "price": 389.9,
+      "size": ["36", "37", "40", "42", "41"],
+      "colors": ["Rosa"],
+      "flavors": [],
+      "stock": [
+        {
+          "color": "Rosa",
+          "stock": 3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Whey Protein 100% Pote 900g Proteína Shark Pro",
+      "category": "saude",
+      "brand": "Shark Pro",
+      "galleries": [
+        {
+          "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_719279-MLU69760338999_062023-F.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_634464-MLU69760339007_062023-F.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_728808-MLU69744690094_062023-F.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_666466-MLU69760508131_062023-F.webp"
+          ],
+          "flavor": "Leite",
+          "isMain": true
+        },
+        {
+          "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_771343-MLA80952129357_112024-F.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_783953-MLA84493842013_052025-F.webp"
+          ],
+          "color": "Pistache",
+          "isMain": false
+        }
+      ],
+      "price": 129.99,
+      "size": ["900g"],
+      "colors": [],
+      "flavors": ["Leite", "Pistache"],
+      "stock": [
+        {
+          "color": "Leite",
+          "stock": 4
+        },
+        {
+          "color": "Pistache",
+          "stock": 2
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Suplemento Creatina Max Titanium Monohidratada em Pó Pote",
+      "category": "saude",
+      "brand": "Max Titanium",
+      "galleries": [
+        {
+          "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_607880-MLU76445325347_052024-F.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_758193-MLU76920014351_062024-F.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_641696-MLU76149147794_052024-F.webp"
+          ],
+          "flavor": "Sem Sabor",
+          "isMain": true
+        }
+      ],
+      "price": 59.9,
+      "size": ["300g"],
+      "colors": [],
+      "flavors": ["Sem Sabor"],
+      "stock": [
+        {
+          "color": "Sem Sabor",
+          "stock": 3
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Tênis adidas Ultrabouce 5 Preto",
+      "category": "sapatos",
+      "brand": "Adidas",
+      "galleries": [
+        {
+          "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_897120-MLB84307867008_052025-F-tnis-adidas-ultrabouce-5-preto.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_758452-MLB84308026174_052025-F-tnis-adidas-ultrabouce-5-preto.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_805573-MLB84604601445_052025-F-tnis-adidas-ultrabouce-5-preto.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_754915-MLB84308155570_052025-F-tnis-adidas-ultrabouce-5-preto.webp"
+          ],
+          "color": "Preto",
+          "isMain": true
+        }
+      ],
+      "price": 599,
+      "size": ["35", "37", "36", "42", "41", "44"],
+      "colors": ["Preto"],
+      "flavors": [],
+      "stock": [
+        {
+          "color": "Preto",
+          "stock": 5
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Camiseta Nike Sportswear Just Do It Masculina",
+      "category": "roupas",
+      "brand": "Nike",
+      "galleries": [
+        {
+          "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_753520-MLB84357036220_052025-F-camiseta-nike-sportswear-just-do-it-masculina.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_879977-MLB68964160270_042023-F-camiseta-nike-sportswear-just-do-it-masculina.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_939640-MLB68964160258_042023-F-camiseta-nike-sportswear-just-do-it-masculina.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_658232-MLB68964160264_042023-F-camiseta-nike-sportswear-just-do-it-masculina.webp"
+          ],
+          "color": "Branca",
+          "isMain": true
+        }
+      ],
+      "price": 129.99,
+      "size": ["M", "P", "G", "GG"],
+      "colors": ["Branca"],
+      "flavors": [],
+      "stock": [
+        {
+          "color": "Branca",
+          "stock": 10
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "adidas Deportivo III FG Grama natural firme Masculino",
+      "category": "esportes",
+      "brand": "Adidas",
+      "galleries": [
+        {
+          "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_904867-MLA80991597469_112024-F.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_679958-MLA80991646061_112024-F.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_722951-MLA83186411618_042025-F.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_727914-MLA83186411622_042025-F.webp"
+          ],
+          "color": "Preto",
+          "isMain": true
+        }
+      ],
+      "price": 199.99,
+      "size": ["38", "39", "40", "42"],
+      "colors": ["Preto"],
+      "flavors": [],
+      "stock": [
+        {
+          "color": "Preto",
+          "stock": 4
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Bola De Futsal Rx 500 Xxiii Cor Branco Amarelo E Preto Penalty",
+      "category": "esportes",
+      "brand": "Penalty",
+      "galleries": [
+        {
+          "images": [
+            "https://http2.mlstatic.com/D_NQ_NP_2X_750391-MLA72526096144_102023-F.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_801147-MLU75554522805_042024-F.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_936291-MLU75811326504_042024-F.webp"
+          ],
+          "color": "Branca",
+          "isMain": true
+        }
+      ],
+      "price": 79.9,
+      "size": ["4"],
+      "colors": ["Branca"],
+      "flavors": [],
+      "stock": [
+        {
+          "color": "Branca",
+          "stock": 8
+        }
+      ]
+    }
+  ]
 }
