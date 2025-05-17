@@ -14,7 +14,6 @@ Montink Store é um projeto de e-commerce moderno e responsivo construído com N
 - [Axios](https://axios-http.com/) — requisições HTTP
 - [js-cookie](https://github.com/js-cookie/js-cookie) — manipulação de cookies
 - [React Hot Toast](https://react-hot-toast.com/) — notificações
-- [CPF/CNPJ Validator](https://github.com/codebude/cpf-cnpj-validator) — validação de documentos
 - [JSON Server](https://github.com/typicode/json-server) — API mock para desenvolvimento
 
 ## 📦 Instalação
