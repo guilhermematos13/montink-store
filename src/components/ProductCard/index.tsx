@@ -46,7 +46,7 @@ export function ProductCard({ galleries, label, price, brand, onClick }: Product
         </div>
       </div>
       <h2 className="text-lg font-bold">{brand}</h2>
-      <p className="h-[1.5rem] truncate text-center text-sm">{label}</p>
+      <p className="h-[1.5rem] max-w-[15rem] truncate text-center text-sm">{label}</p>
       <p className="text-center text-lg font-bold">{formatCurrency(price)}</p>
     </button>
   );
