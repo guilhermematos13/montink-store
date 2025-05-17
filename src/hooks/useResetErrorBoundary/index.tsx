@@ -9,7 +9,7 @@ function useResetErrorBoundary({ reset }: ResetErrorBoundaryProps) {
   const handleReset = () => {
     startTransition(() => {
       router.refresh();
-      reset();
+      reset && reset();
     });
   };
 
