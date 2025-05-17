@@ -3,7 +3,6 @@
 import { CheckCircle } from 'lucide-react';
 import { ButtonLink } from '@/components/ButtonLink';
 import { AppRoutesEnum } from '@/constants';
-import { Header } from '@/components/Header';
 
 export function SuccessWrapper() {
   const protocol = `#${Math.floor(100000 + Math.random() * 900000)}`;
