@@ -1,14 +1,14 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:4000/',
+  baseURL: process.env.NEXT_PUBLIC_API_URL,
   headers: {
     'Content-Type': 'application/json',
   },
 });
 
 const apiCep = axios.create({
-  baseURL: 'https://viacep.com.br/',
+  baseURL: process.env.NEXT_PUBLIC_CEP_API_URL,
   headers: {
     'Content-Type': 'application/json',
   },

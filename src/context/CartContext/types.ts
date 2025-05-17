@@ -1,4 +1,3 @@
-import { product } from '@/infra/hooks/products/dtos/IGetProductListResponseDTO';
 import { Dispatch, ReactNode, SetStateAction } from 'react';
 
 export type CartContextProps = {

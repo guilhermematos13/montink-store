@@ -5,7 +5,7 @@ import Cookies from 'js-cookie';
 import { CartContextProps, CartProviderProps, productContext } from './types';
 import { CookiesKeyEnum } from '@/constants';
 import toast from 'react-hot-toast';
-const COOKIE_TTL_MINUTES = 15;
+const COOKIE_EXPIRES_MINUTES = 15;
 
 export const CartContext = createContext({} as CartContextProps);
 
@@ -34,11 +34,11 @@ export function CartContextProvider({ children }: CartProviderProps) {
   }, []);
 
   useEffect(() => {
-    const expiresAt = Date.now() + COOKIE_TTL_MINUTES * 60 * 1000;
+    const expiresAt = Date.now() + COOKIE_EXPIRES_MINUTES * 60 * 1000;
 
     const value = JSON.stringify({ products, expiresAt });
     Cookies.set(CookiesKeyEnum.CART_PRODUCTS, value, {
-      expires: COOKIE_TTL_MINUTES / (60 * 24),
+      expires: COOKIE_EXPIRES_MINUTES / (60 * 24),
     });
   }, [products]);
 

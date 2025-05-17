@@ -1,9 +1,9 @@
 import { ROUTES } from './constants';
-import { IHttpResponse } from '../../IHttpResponse';
 import { IGetProductListResponseDTO } from './dtos/IGetProductListResponseDTO';
 import { IGetProductDataResponseDTO } from './dtos/IGetProductDataResponseDTO';
 import { IGetProductDataRequestDTO } from './dtos/IGetProductDataRequestDTO';
 import { api } from '@/api/axios';
+import { IHttpResponse } from '@/infra/types';
 
 export function useProductsService() {
   const getProductsList = async (): Promise<IHttpResponse<IGetProductListResponseDTO>> => {

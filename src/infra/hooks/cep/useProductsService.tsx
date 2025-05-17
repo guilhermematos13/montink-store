@@ -1,8 +1,8 @@
-import { IHttpResponse } from '../../IHttpResponse';
 import { IGetCepResponseDTO } from './dtos/IGetCepResponseDTO';
 import { IGetCepRequestDTO } from './dtos/IGetCepRequestDTO';
 import { ROUTES } from './constants';
 import { apiCep } from '@/api/axios';
+import { IHttpResponse } from '@/infra/types';
 
 export function useCepService() {
   const getCepData = async ({
