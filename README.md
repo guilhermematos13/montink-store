@@ -22,9 +22,6 @@ Montink Store é um projeto de e-commerce moderno e responsivo construído com N
 # Clone o repositório
 git clone https://github.com/guilhermematos13/montink-store.git
 
-# Acesse o diretório
-cd montink-store
-
 # Instale as dependências
 npm install
 ```
