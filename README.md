@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛍️ Montink Store
 
-## Getting Started
+Montink Store é um projeto de e-commerce moderno e responsivo construído com Next.js, React, TypeScript e diversas bibliotecas modernas para garantir performance, usabilidade e facilidade de manutenção.
 
-First, run the development server:
+## 🚀 Tecnologias utilizadas
+
+- [Next.js 15](https://nextjs.org/)
+- [React 19](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS 4](https://tailwindcss.com/)
+- [Zod](https://zod.dev/) — validação de schemas
+- [React Hook Form](https://react-hook-form.com/)
+- [Lucide React](https://lucide.dev/) — ícones
+- [Axios](https://axios-http.com/) — requisições HTTP
+- [js-cookie](https://github.com/js-cookie/js-cookie) — manipulação de cookies
+- [React Hot Toast](https://react-hot-toast.com/) — notificações
+- [CPF/CNPJ Validator](https://github.com/codebude/cpf-cnpj-validator) — validação de documentos
+- [JSON Server](https://github.com/typicode/json-server) — API mock para desenvolvimento
+
+## 📦 Instalação
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone o repositório
+git clone https://github.com/guilhermematos13/montink-store.git
+
+# Acesse o diretório
+cd montink-store
+
+# Instale as dependências
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 💻 Scripts disponíveis
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run dev        # Inicia o servidor de desenvolvimento
+npm run build      # Gera a build para produção
+npm run start      # Inicia a aplicação em modo de produção
+npm run lint       # Executa o linter
+npm run format     # Formata o código com Prettier
+npm run server     # Inicia o JSON Server em http://localhost:4000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌐 Variáveis de ambiente
 
-## Learn More
+Crie um arquivo `.env.local` com as seguintes chaves (exemplo):
 
-To learn more about Next.js, take a look at the following resources:
+```
+NEXT_PUBLIC_API_BASE_URL=http://localhost:4000/
+NEXT_PUBLIC_API_CEP=https://viacep.com.br/
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Essas variáveis são usadas para configurar as APIs de produtos e de CEP.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📁 Estrutura do projeto
 
-## Deploy on Vercel
+```
+src/
+├── components/        # Componentes reutilizáveis (Button, Drawer, etc.)
+├── context/           # Context API (Cart, Auth, etc.)
+├── app/               # Páginas do projeto
+├── api/               # Instâncias do axios (api, apiCep)
+├── utils/             # Funções utilitárias
+├── constants/         # Enums e constantes compartilhadas
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ✅ Funcionalidades
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- 🛒 Adição e remoção de produtos no carrinho
+- 📦 Checkout com botão de finalizar compra
+- 💰 Cálculo de total de itens e preços
+- 🔐 Redirecionamento para login caso o usuário não esteja autenticado
+- 🧠 Persistência do carrinho com cookies por 15 minutos
+- 🧪 Tela de erro com botão de "Tentar novamente"
+- ✅ Tela de sucesso com protocolo do pedido
+
+## 🧑‍💻 Autor
+
+Desenvolvido por Guilherme Matos (https://github.com/guilhermematos13).
+
+---
+
+Feito com ❤️ usando Next.js + Tailwind CSS
