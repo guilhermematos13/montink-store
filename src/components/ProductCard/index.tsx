@@ -3,9 +3,14 @@ import { ProductCardProps } from './types';
 import { useState } from 'react';
 import { formatCurrency } from '@/utils/format-currency';
 import { productCardStyles } from './styles';
+import { useIsMobile } from '@/hooks/useIsMobile';
+import { ButtonLink } from '../ButtonLink';
+import { AppRoutesEnum } from '@/constants';
+import { Button } from '../Button';
 
 export function ProductCard({ galleries, label, price, brand, onClick }: ProductCardProps) {
   const [selectedIndex, setSelectedIndex] = useState(0);
+  const isMobile = useIsMobile();
 
   const {
     buttonContainer,
@@ -17,8 +22,8 @@ export function ProductCard({ galleries, label, price, brand, onClick }: Product
 
   const { images } = galleries;
 
-  return (
-    <button onClick={onClick} className={buttonContainer()}>
+  const content = (
+    <>
       <div className={galleryContainer()}>
         <div className={mainImageContainer()}>
           <Image
@@ -48,6 +53,20 @@ export function ProductCard({ galleries, label, price, brand, onClick }: Product
       <h2 className="text-lg font-bold">{brand}</h2>
       <p className="h-[1.5rem] max-w-[15rem] truncate text-center text-sm">{label}</p>
       <p className="text-center text-lg font-bold">{formatCurrency(price)}</p>
+    </>
+  );
+
+  return isMobile ? (
+    <div className={buttonContainer()}>
+      {content}
+
+      <Button className="flex w-full justify-center" onClick={onClick}>
+        Ver detalhes
+      </Button>
+    </div>
+  ) : (
+    <button onClick={onClick} className={buttonContainer()}>
+      {content}
     </button>
   );
 }

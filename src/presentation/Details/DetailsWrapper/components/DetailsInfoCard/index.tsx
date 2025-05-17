@@ -25,7 +25,7 @@ export function DetailsInfoCard({
   const handleClickChangeOption = (variant: string) => {
     const params = new URLSearchParams(Array.from(searchParams.entries()));
     params.set(SearchParamsKeysEnum.VARIANT, variant);
-    router.push(`?${params.toString()}`);
+    router.push(`?${params.toString()}`, { scroll: false });
   };
 
   return (
