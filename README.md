@@ -77,6 +77,13 @@ src/
 - 🧪 Tela de erro com botão de "Tentar novamente"
 - ✅ Tela de sucesso com protocolo do pedido
 
+## 🔐 Login
+- Email: teste@teste.com
+- Senha: teste123
+
+## 🌎 Vercel:
+- [Vercel](https://montink-store-vyw5.vercel.app/) 
+
 ## 🧑‍💻 Autor
 
 Desenvolvido por Guilherme Matos (https://github.com/guilhermematos13).
