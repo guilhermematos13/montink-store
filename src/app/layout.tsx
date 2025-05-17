@@ -29,7 +29,7 @@ export default function RootLayout({
         <AuthProvider>
           <CartContextProvider>
             <Toaster />
-            <Suspense fallback={<Loading />}>
+            <Suspense>
               <Header />
             </Suspense>
             {children}
