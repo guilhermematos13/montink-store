@@ -39,7 +39,7 @@ export function DetailsInfoCard({
           return (
             <Button
               key={option}
-              variant={isSelected ? VariantButtonEnum.PRIMARY : VariantButtonEnum.SECONDARY}
+              variant={isSelected ? VariantButtonEnum.SELECTED : VariantButtonEnum.SECONDARY}
               onClick={() => handleClickChangeOption(formatText(option))}
             >
               {option}
@@ -55,7 +55,7 @@ export function DetailsInfoCard({
           return (
             <Button
               key={option}
-              variant={isSelected ? VariantButtonEnum.PRIMARY : VariantButtonEnum.SECONDARY}
+              variant={isSelected ? VariantButtonEnum.SELECTED : VariantButtonEnum.SECONDARY}
               className="w-fit"
               onClick={() => setOptionSelectedIndexState(index)}
             >

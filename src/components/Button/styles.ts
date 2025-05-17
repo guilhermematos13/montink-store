@@ -6,7 +6,7 @@ export const buttonStyles = tv({
     variant: {
       primary: 'bg-black text-white hover:bg-white hover:border-black hover:text-black',
       secondary: 'bg-white text-black hover:bg-black hover:border-white hover:text-white',
-      ghost: '',
+      selected: 'bg-black text-white',
     },
   },
 });
