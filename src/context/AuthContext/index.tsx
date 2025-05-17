@@ -16,13 +16,15 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const login = () => {
-    Cookies.set(CookiesKeyEnum.ACCESS_TOKEN, 'fake-token', { expires: 1 / 96 }); // 15min
+    Cookies.set(CookiesKeyEnum.ACCESS_TOKEN, 'fake-token', { expires: 1 / 96 });
     setIsLoggedIn(true);
   };
 
   const logout = () => {
     Cookies.remove(CookiesKeyEnum.ACCESS_TOKEN);
+    Cookies.remove(CookiesKeyEnum.CART_PRODUCTS);
     setIsLoggedIn(false);
+    window.location.reload();
   };
 
   return (

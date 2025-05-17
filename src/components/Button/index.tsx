@@ -1,3 +1,4 @@
+import { Loader } from 'lucide-react';
 import { VariantButtonEnum } from './constants';
 import { buttonStyles } from './styles';
 import { ButtonProps } from './types';
@@ -7,12 +8,21 @@ export function Button({
   icon,
   className,
   children,
+  isLoading = false,
   ...props
 }: ButtonProps) {
   return (
     <button className={buttonStyles({ variant: variant, className })} {...props}>
-      {icon ? icon : null}
-      {children}
+      {isLoading ? (
+        <>
+          <Loader className="animate-spin" size={18} />
+        </>
+      ) : (
+        <>
+          {icon ? icon : null}
+          {children}
+        </>
+      )}
     </button>
   );
 }

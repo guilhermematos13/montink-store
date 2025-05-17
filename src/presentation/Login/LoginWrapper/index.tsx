@@ -6,10 +6,11 @@ import { LogIn } from 'lucide-react';
 import { Controller, useForm } from 'react-hook-form';
 import { LoginFormProps, LoginFormSchema } from './schema';
 import { zodResolver } from '@hookform/resolvers/zod';
-import Cookies from 'js-cookie';
-import { AppRoutesEnum, CookiesKeyEnum } from '@/constants';
+import { AppRoutesEnum } from '@/constants';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/context/AuthContext';
+import Image from 'next/image';
+import Logo from '../../../assets/black-logo.png';
 
 export function LoginWrapper() {
   const router = useRouter();
@@ -48,9 +49,12 @@ export function LoginWrapper() {
   };
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-gray-50">
-      <div className="w-full max-w-sm rounded-lg border border-gray-200 bg-white p-6 shadow-md">
-        <h2 className="mb-6 text-center text-2xl font-semibold">Login</h2>
+    <div className="flex min-h-screen items-center justify-center bg-gray-50 px-2 sm:px-0">
+      <div className="flex w-full max-w-sm flex-col gap-4 rounded-lg border border-gray-200 bg-white p-6 shadow-md">
+        <div className="flex items-center justify-between">
+          <h2 className="mb-6 text-center text-2xl font-semibold">Login</h2>
+          <Image src={Logo} alt="Logo Montink" width={150} height={70} />
+        </div>
         <form onSubmit={handleSubmit(handleFakeLogin)} className="flex flex-col gap-6">
           <div>
             <label htmlFor="userLogin" className="mb-1 block font-medium text-gray-700">

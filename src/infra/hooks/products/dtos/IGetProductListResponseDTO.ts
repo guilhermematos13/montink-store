@@ -3,7 +3,7 @@ import { CategoryEnumNames } from '../constants';
 export interface IGetProductListResponseDTO extends Array<product> {}
 
 export interface product {
-  id: string;
+  id: number;
   name: string;
   category: CategoryEnumNames;
   galleries: Array<galleries>;

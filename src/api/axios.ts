@@ -7,4 +7,11 @@ const api = axios.create({
   },
 });
 
-export default api;
+const apiCep = axios.create({
+  baseURL: 'https://viacep.com.br/',
+  headers: {
+    'Content-Type': 'application/json',
+  },
+});
+
+export { api, apiCep };

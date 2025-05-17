@@ -130,24 +130,26 @@
         },
         {
           "images": [
-            "https://http2.mlstatic.com/D_NQ_NP_2X_771343-MLA80952129357_112024-F.webp",
-            "https://http2.mlstatic.com/D_NQ_NP_2X_783953-MLA84493842013_052025-F.webp"
+            "https://http2.mlstatic.com/D_NQ_NP_2X_736904-MLU78230085967_082024-F.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_803317-MLU78004808028_082024-F.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_884614-MLU78229792591_082024-F.webp",
+            "https://http2.mlstatic.com/D_NQ_NP_2X_601274-MLA84177552744_052025-F.webp"
           ],
-          "variant": "pistache",
+          "variant": "cookies",
           "isMain": false
         }
       ],
       "price": 129.99,
       "size": ["900g"],
       "colors": [],
-      "flavors": ["Leite", "Pistache"],
+      "flavors": ["Leite", "Cookies"],
       "stock": [
         {
           "variant": "leite",
           "stock": 4
         },
         {
-          "variant": "pistache",
+          "variant": "cookies",
           "stock": 2
         }
       ]
@@ -164,17 +166,17 @@
             "https://http2.mlstatic.com/D_NQ_NP_2X_758193-MLU76920014351_062024-F.webp",
             "https://http2.mlstatic.com/D_NQ_NP_2X_641696-MLU76149147794_052024-F.webp"
           ],
-          "variant": "sem sabor",
+          "variant": "neutro",
           "isMain": true
         }
       ],
       "price": 59.9,
       "size": ["300g"],
       "colors": [],
-      "flavors": ["Sem Sabor"],
+      "flavors": ["Neutro"],
       "stock": [
         {
-          "variant": "sem sabor",
+          "variant": "neutro",
           "stock": 3
         }
       ]
@@ -281,7 +283,7 @@
       ],
       "price": 79.9,
       "size": ["4"],
-      "colors": ["Branca"],
+      "colors": ["Branco"],
       "flavors": [],
       "stock": [
         {

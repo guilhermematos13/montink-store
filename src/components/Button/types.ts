@@ -6,4 +6,5 @@ export type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
   icon?: ReactNode;
   className?: string;
   children: ReactNode;
+  isLoading?: boolean;
 };

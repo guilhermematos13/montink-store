@@ -3,8 +3,7 @@
 import { useRouter, useSearchParams } from 'next/navigation';
 import { HomeWrapperProps } from './types';
 import { ProductCard } from '@/components/ProductCard';
-import { AppRoutesEnum } from '@/constants';
-import { SearchParamsKeysEnum } from '@/components/Header/components/SideMenu/constants';
+import { AppRoutesEnum, SearchParamsKeysEnum } from '@/constants';
 import { Button } from '@/components/Button';
 import { AlertCircle } from 'lucide-react';
 
@@ -71,7 +70,7 @@ export function HomeWrapper({ products }: HomeWrapperProps) {
                 label={product.name}
                 price={product.price}
                 brand={product.brand}
-                onClick={() => handleClickProduct(product.id, mainVariant)}
+                onClick={() => handleClickProduct(String(product.id), mainVariant)}
               />
             );
           })}
